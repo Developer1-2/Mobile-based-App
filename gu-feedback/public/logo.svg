@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="95" stroke="#44A08D" stroke-width="4" fill="white"/>
+  <!-- Inner decorative ring -->
+  <circle cx="100" cy="100" r="82" stroke="#F4C542" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+
+  <!-- Torch flame -->
+  <path d="M100 30 C94 42 88 50 90 62 C92 72 100 76 100 76 C100 76 108 72 110 62 C112 50 106 42 100 30Z" fill="#F4C542"/>
+  <path d="M100 44 C97 51 95 56 96 63 C97 68 100 71 100 71 C100 71 103 68 104 63 C105 56 103 51 100 44Z" fill="#E8A020"/>
+
+  <!-- Torch handle -->
+  <rect x="95" y="74" width="10" height="32" rx="2" fill="#44A08D"/>
+  <rect x="93" y="102" width="14" height="5" rx="2" fill="#3a8a76"/>
+
+  <!-- Book (open) -->
+  <path d="M60 130 L100 122 L140 130 L140 158 L100 150 L60 158 Z" fill="white" stroke="#44A08D" stroke-width="2"/>
+  <line x1="100" y1="122" x2="100" y2="150" stroke="#44A08D" stroke-width="2"/>
+  <!-- Book lines left -->
+  <line x1="70" y1="136" x2="96" y2="133" stroke="#44A08D" stroke-width="1" opacity="0.5"/>
+  <line x1="70" y1="142" x2="96" y2="139" stroke="#44A08D" stroke-width="1" opacity="0.5"/>
+  <line x1="70" y1="148" x2="96" y2="145" stroke="#44A08D" stroke-width="1" opacity="0.5"/>
+  <!-- Book lines right -->
+  <line x1="104" y1="133" x2="130" y2="136" stroke="#44A08D" stroke-width="1" opacity="0.5"/>
+  <line x1="104" y1="139" x2="130" y2="142" stroke="#44A08D" stroke-width="1" opacity="0.5"/>
+  <line x1="104" y1="145" x2="130" y2="148" stroke="#44A08D" stroke-width="1" opacity="0.5"/>
+
+  <!-- Stars -->
+  <circle cx="55" cy="100" r="3" fill="#F4C542"/>
+  <circle cx="145" cy="100" r="3" fill="#F4C542"/>
+  <circle cx="100" cy="175" r="3" fill="#F4C542"/>
+</svg>

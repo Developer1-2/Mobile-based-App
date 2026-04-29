@@ -1,0 +1,231 @@
+.track-page {
+  padding-top: 16px;
+}
+
+/* ── FORM ── */
+.track-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.track-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.track-input-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.track-code-input {
+  font-family: 'Courier New', monospace;
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  padding-right: 44px;
+}
+
+.track-clear-btn {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition);
+}
+.track-clear-btn:hover {
+  color: var(--text);
+  background: var(--border-light);
+}
+
+/* ── SKELETON ── */
+.track-skeleton {
+  margin-top: 8px;
+}
+
+/* ── STATUS CARD ── */
+.status-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 14px;
+  border: 1.5px solid transparent;
+}
+
+.status-card-pending {
+  background: var(--warning-light);
+  border-color: var(--accent);
+}
+.status-card-in_progress {
+  background: var(--primary-light);
+  border-color: var(--primary);
+}
+.status-card-resolved {
+  background: var(--resolved-light);
+  border-color: var(--resolved);
+}
+
+.status-card-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.status-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.status-card-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+}
+
+.status-card-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 3px;
+  line-height: 1.45;
+}
+
+/* ── DETAIL CARD ── */
+.track-detail-card {
+  margin-bottom: 14px;
+  border-top: 3px solid var(--primary);
+}
+
+.track-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 20px 0;
+}
+
+.track-detail-category-pill {
+  display: inline-flex;
+  align-items: center;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  padding: 3px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.track-detail-date {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.track-result-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.track-result-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+/* ── RESPONSES ── */
+.track-responses {
+  margin-bottom: 14px;
+}
+
+.track-responses-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 12px;
+}
+
+.track-no-response {
+  text-align: center;
+  padding: 24px 16px;
+  background: white;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  margin-bottom: 14px;
+}
+
+.track-no-response .empty-state-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  opacity: 0.5;
+}
+
+.track-no-response p {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+/* ── ACTIONS ── */
+.track-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+/* ── HINT CARD ── */
+.track-hint-card {
+  text-align: center;
+  padding: 32px 20px;
+  background: white;
+  border: 1.5px dashed var(--border);
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.track-hint-icon {
+  font-size: 2.5rem;
+  margin-bottom: 14px;
+  opacity: 0.5;
+}
+
+.track-hint-card h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.track-hint-card p {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 280px;
+}
+
+/* ── RESULT ANIMATION ── */
+.track-result {
+  animation: pageIn 0.3s ease forwards;
+}
